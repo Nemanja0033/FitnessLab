@@ -23,7 +23,7 @@ To get started with FitnessLab locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/FitnessLab.git
+   git clone https://github.com/Nemanja0033/FitnessLab.git
 2. Navigate to the project directory:
    ```bash
    cd FitnessLab
