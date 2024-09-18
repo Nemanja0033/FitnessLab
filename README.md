@@ -2,6 +2,12 @@
 
 <p><b>FitnessLab</b> is a single-page application (SPA) designed for fitness enthusiasts, offering a comprehensive database of exercises, workouts, and articles sourced from RapidAPI and Muscle and Strength.</p>
 
+## Features
+
+- **Exercise Database:** Browse a wide variety of exercises categorized by type, muscle group, and difficulty level.
+- **Informative Articles:** Access a collection of articles covering fitness tips, nutrition advice, and training techniques.
+- **Responsive Design:** Built with Material-UI for a seamless user experience across devices.
+
 <h3>
   Technologies Used:
 </h3>
