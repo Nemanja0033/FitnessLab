@@ -12,12 +12,12 @@ const HeroBanner = () => {
       Fit. Strong. Thrive.
       </Typography>
       <br />
-      <Typography color='white' sx={{ fontSize: {lg: '32px', xs: '24px'}}} mb='20px'>
+      <Typography color='white' sx={{ fontSize: {lg: '32px', xs: '30px'}}} mb='20px'>
       <span style={{color: 'grey'}}>Find your Drive.</span>
       <br />
       <span style={{color: 'grey'}}>Start your Fitness Journey!</span>
       </Typography>
-      <Button href='#exercises' style={{height: '50px'}} variant="contained">Explore Exerecises</Button>
+      <Button href='#workouts' style={{height: '50px'}} variant="contained">Explore Workouts</Button>
       <img src={HeroBannerImage} alt="hero" className='hero-banner-img' />
     </Box>
   )
