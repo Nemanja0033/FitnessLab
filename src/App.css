@@ -32,6 +32,7 @@ a{
   height: 900px;
   margin-top: -330px;
   border-radius: 150px;
+  z-index: -1;
 
 }
 
@@ -73,13 +74,8 @@ a{
   width: 400px;
   border-radius: 10px;
 }
-.workout-women-img:hover{
-  transform: scale(110%);
-  cursor: pointer;
-  opacity: 0.8;
-  transition: all 0.20s;
-}
-.workout-men-img:hover{
+
+.workout-box:hover{
   transform: scale(110%);
   cursor: pointer;
   opacity: 0.8;

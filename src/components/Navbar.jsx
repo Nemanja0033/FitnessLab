@@ -11,9 +11,12 @@ const Navbar = () => {
         <Link to='/'>
           <img src={Logo} alt="logo" style={{width: '55px', height: "55px", marginTop: '20px', marginLeft: '20px'}} />
         </Link>
-        <Stack direction='row' gap='40px' fontSize='24px' alignItems='flex-end'> 
+        <Stack sx={{gap: {lg: '40px', md: '30px', sm: '24px', xs: '10px'}, fontSize: {lg: '24px', md: '24', xs: '14px'}}} direction='row' alignItems='flex-end'> 
         <Link to='/' style={{textDecoration: 'none', color: 'white', borderBottom: '3px solid #51b2ff'}}>Home</Link>
-        <a href="#articles" style={{ textDecoration: 'none', color: 'white' }}>Articles</a>
+        <Link to='/workouts' style={{textDecoration: 'none', color: 'white'}}>Workouts</Link>
+        <Link to='/exercisepage' style={{textDecoration: 'none', color: 'white'}}>Exercises</Link>
+        <Link to='/articlepage' style={{textDecoration: 'none', color: 'white'}}>Articles</Link>
+        <Link to='/dietspage' style={{textDecoration: 'none', color: 'white'}}>Diets</Link>
         </Stack>
       </Stack>
     </div>

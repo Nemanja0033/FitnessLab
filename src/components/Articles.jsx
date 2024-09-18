@@ -30,7 +30,7 @@ const Articles = () => {
     <div>
       <Box id='articles' sx={{ mt: '150px', mb: '150px', textAlign: 'center' }}>
         <Typography sx={{fontSize: {lg: '32px', xs: '24px'}}} fontWeight='700' color='white' variant='h4'>
-        Search for the <span style={{ color: '#51b2ff' }}>Articles</span>
+        Most Popular <span style={{ color: '#51b2ff' }}>Articles</span>
         </Typography>
         <Box
           ref={scrollContainerRef}

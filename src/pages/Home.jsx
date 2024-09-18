@@ -4,7 +4,8 @@ import HeroBanner from '../components/HeroBanner.jsx';
 import SearchExercises from '../components/SearchExercises.jsx'
 import Exercises from '../components/Exercises.jsx'; 
 import Articles from '../components/Articles.jsx';
-import Workouts from '../components/Workouts.jsx';
+
+import Diets from '../components/Diets.jsx';
 
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all');
@@ -16,7 +17,7 @@ const Home = () => {
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
       <Articles />
-      <Workouts />
+      <Diets />
     </Box>
   );
 };
