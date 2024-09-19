@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src={Logo} alt="logo" style={{width: '55px', height: "55px", marginTop: '20px', marginLeft: '20px'}} />
         </Link>
         <Stack sx={{gap: {lg: '40px', md: '30px', sm: '24px', xs: '8px'}, fontSize: {lg: '24px', md: '24', xs: '14px'}}} direction='row' alignItems='flex-end'> 
-        <Link to='/' style={{textDecoration: 'none', color: 'white', borderBottom: '3px solid #51b2ff'}}>Home</Link>
+        <Link to='/' style={{textDecoration: 'none', color: 'white'}}>Home</Link>
         <Link to='/workouts' style={{textDecoration: 'none', color: 'white'}}>Workouts</Link>
         <Link to='/exercisepage' style={{textDecoration: 'none', color: 'white'}}>Exercises</Link>
         <Link to='/articlepage' style={{textDecoration: 'none', color: 'white'}}>Articles</Link>
