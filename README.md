@@ -1,7 +1,7 @@
 <h1>FitnessLab</h1>
 
 <p><b>FitnessLab</b> is a single-page application (SPA) designed for fitness enthusiasts, offering a comprehensive database of exercises, workouts, and articles sourced from RapidAPI and Muscle and Strength.
-While I'm working on this project, I'm learning about the advanced use of React, and its libraries, as well as the web, UI UX.
+While I'm working on this project, I'm learning about the advanced use of React, and its libraries, as well as the responsive web, UI UX Design
 </p>
 
 ## Features
