@@ -91,12 +91,11 @@ a{
   .hero-banner-img {
     position: absolute;
     right: 0px;
-    opacity: 0.5;
+    opacity: 0.6;
     top: 0px;
     width: 500px;
     height: 900px;
     margin-top: -330px;
-    border-radius: 150px;
     z-index: -1;
   }
 
